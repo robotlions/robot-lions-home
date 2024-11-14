@@ -1,0 +1,159 @@
+/* dark brown: #5a270f */
+/* orange: #ef983a */
+
+a {
+  text-decoration: none;
+  color: #ef983a;
+}
+
+a:link {
+  color: #ef983a;
+
+}
+
+a:visited {
+  color: #ef983a;
+
+}
+
+button{
+  width:100%
+}
+
+p {
+  font-family: "Raleway-Medium";
+}
+
+h3 {
+  font-family: "Raleway-Black";
+  font-size: large;
+}
+
+h4{
+  font-family: "Raleway-Black";
+
+}
+
+
+
+
+
+strong{
+  font-family: "Raleway-black";
+}
+
+
+#gitLogo:hover {
+  color: black;
+}
+
+#mailLogo:hover {
+  color: black;
+}
+
+.brandRow {
+  background-color: transparent;
+  height: 80px;
+  padding-right: 75px;
+  padding-top: 20px;
+}
+
+.card {
+  box-shadow: 2px 2px 10px #5a270f;
+  border: none !important;
+  animation: fadeIn 2s;
+}
+
+.categoryHeadline {
+  font-family: "Raleway-Black";
+  color: #5a270f;
+  margin-bottom: 10px;
+}
+
+.cta-btn{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.googlePlayBadge{
+  max-width: 200px;
+}
+
+.linkLogos {
+  font-size: 40px;
+}
+
+.logoRow {
+  padding-top: 5vh;
+  background-color: white;
+  padding-bottom: 2vh;
+}
+
+
+.navbar h4{
+  color: #5a270f;
+
+}
+
+.navLogo {
+  max-width: 50%;
+}
+
+.spacer {
+  height: 30px;
+}
+
+.wrapper {
+  background-image: url("./assets/images/stripeFull4.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 990px) {
+  .navLogo {
+    max-width: 90%;
+  }
+  .navbarBrandBar {
+    text-align: center !important;
+  }
+ 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@font-face {
+  font-family: "Raleway-Black";
+  src: local("Raleway-Black"),
+    url("../src/assets/fonts/Raleway-Black.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: local("Raleway-Medium"),
+    url("../src/assets/fonts/Raleway-Medium.ttf") format("woff");
+}
+
+
+@media (min-width: 500px) {
+  .logoRow {
+    padding-top: 0;
+    padding-bottom: 2vh;
+  }
+}
+
+@media (max-width: 760px) {
+  .brandRow {
+    padding-right: 40px;
+  }
+}
