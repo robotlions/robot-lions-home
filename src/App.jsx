@@ -228,7 +228,7 @@ function App() {
                   </p>
                   <strong>Platform:</strong> Web
                   <br />
-                  <strong>Language:</strong> React JS
+                  <strong>Language:</strong> Vite + React
                 </div>
               </div>
               <div className="cta-btn">
