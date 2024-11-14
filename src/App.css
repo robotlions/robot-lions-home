@@ -152,8 +152,11 @@ strong{
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   .brandRow {
     padding-right: 40px;
+  }
+  .rounded-start.appImage{
+    border-bottom-left-radius: 0 !important;
   }
 }

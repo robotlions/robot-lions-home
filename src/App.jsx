@@ -32,7 +32,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={atomicPressGraphic}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="retro coffee cup on starburst"
               />
             </div>
@@ -69,7 +69,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={modernCoffeeGraphic}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="1970s orange coffee pot"
               />
             </div>
@@ -109,7 +109,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={dndGraphic}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="character sheet dice and pencils"
               />
             </div>
@@ -157,7 +157,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={curseGraphic}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="video game nerds"
               />
             </div>
@@ -209,7 +209,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={scaleLogo}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="video game nerds"
               />
             </div>
@@ -257,7 +257,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={thrashLogo}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="video game nerds"
               />
             </div>
@@ -312,7 +312,7 @@ function App() {
             <div className="col-md-3">
               <img
                 src={arcadeLogo}
-                className="img-fluid rounded-start"
+                className="img-fluid rounded-start appImage"
                 alt="vintage arcade machine"
               />
             </div>
