@@ -13,6 +13,7 @@ import curseGraphic from "./assets/images/curseWebsiteGraphic3.png";
 import googlePlayBadge from "./assets/images/google-play-badge.png";
 import arcadeLogo from "./assets/images/arcadeLogo.png";
 import scaleLogo from "./assets/images/robotLionsTitleCard.png";
+import thrashLogo from "./assets/images/thrashGraphic.png";
 
 
 function App() {
@@ -251,6 +252,53 @@ function App() {
           </div>
         </div>
 
+        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+          <div className="row g-0">
+            <div className="col-md-3">
+              <img
+                src={thrashLogo}
+                className="img-fluid rounded-start"
+                alt="video game nerds"
+              />
+            </div>
+            <div className="col-md-9">
+              <div className="card-body">
+                <h3 className="card-title">Thrash of the Titans</h3>
+                <div className="card-text">
+                  <p>
+                  Free online fretboard training tool.
+                  </p>
+                  <p>
+                  Challenge yourself to locate a randomly generated string and note on the guitar fretboard.
+                  </p>
+                  <p>
+                  Play untimed on against a customizable timer.
+                  </p>
+                  <strong>Platform:</strong> Web
+                  <br />
+                  <strong>Language:</strong> Vite + React
+                </div>
+              </div>
+              <div className="cta-btn">
+                <a
+                  href="https://guitartrainer.robotlions.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Thrash of the Titans
+                </a>
+                <br />
+                <a
+                  href="https://github.com/robotlions/thrashofthetitans/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  See the code on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
         <div className="spacer"></div>
