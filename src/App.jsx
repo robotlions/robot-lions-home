@@ -180,7 +180,7 @@ function App() {
                   </p>
                   <strong>Platform:</strong> Web
                   <br />
-                  <strong>Language:</strong> React JS
+                  <strong>Language:</strong> Vite + React JS
                 </div>
               </div>
               <div className="cta-btn">
@@ -193,7 +193,7 @@ function App() {
                 </a>
                 <br />
                 <a
-                  href="https://github.com/robotlions/goldboxeditor/"
+                  href="https://github.com/robotlions/goldbox-vite-tailwind/"
                   rel="noreferrer"
                   target="_blank"
                 >
