@@ -14,6 +14,7 @@ import googlePlayBadge from "./assets/images/google-play-badge.png";
 import arcadeLogo from "./assets/images/arcadeLogo.png";
 import scaleLogo from "./assets/images/robotLionsTitleCard.png";
 import thrashLogo from "./assets/images/thrashGraphic.png";
+import rolledLogo from "./assets/images/rolledSchoolSquare.png"
 
 
 function App() {
@@ -108,7 +109,7 @@ function App() {
           <div className="row g-0">
             <div className="col-md-3">
               <img
-                src={dndGraphic}
+                src={rolledLogo}
                 className="img-fluid rounded-start appImage"
                 alt="character sheet dice and pencils"
               />
@@ -116,19 +117,19 @@ function App() {
             <div className="col-md-9">
               <div className="card-body">
                 <h3 className="card-title">
-                  Dungeons and Dragons 3.5 Character Creator
+                  Rolled School
                 </h3>
                 <div className="card-text">
-                  <p>The best damned Dungeons and Dragons 3.5 Edition character generator on the Internet.</p>
+                  <p>Character creator for third-edition Dungeons and Dragons.</p>
                   <p>
-                    Automatically generates printable character sheet.
+                    Create old-school characters three different ways - classic, instant and custom.
                   </p>
                   <p>
                     Mobile-responsive for some reason.
                   </p>
                   <strong>Platform:</strong> Web
                   <br />
-                  <strong>Language:</strong> React JS
+                  <strong>Language:</strong> React and Next JS
                 </div>
               </div>
               <div className="cta-btn">
