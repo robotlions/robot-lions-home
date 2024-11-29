@@ -142,7 +142,7 @@ function App() {
                 </a>
                 <br />
                 <a
-                  href="https://github.com/robotlions/dndchar/"
+                  href="https://github.com/robotlions/dnd35-next/"
                   rel="noreferrer"
                   target="_blank"
                 >
