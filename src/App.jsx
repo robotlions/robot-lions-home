@@ -273,7 +273,7 @@ function App() {
                   Challenge yourself to locate a randomly generated string and note on the guitar fretboard.
                   </p>
                   <p>
-                  Play untimed on against a customizable timer.
+                  Play untimed or against a customizable timer.
                   </p>
                   <strong>Platform:</strong> Web
                   <br />
