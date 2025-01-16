@@ -242,7 +242,7 @@ function App() {
                 </a>
                 <br />
                 <a
-                  href="https://github.com/robotlions/scale-builder/"
+                  href="https://github.com/robotlions/scaleomatic-vite/"
                   rel="noreferrer"
                   target="_blank"
                 >
