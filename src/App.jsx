@@ -15,7 +15,7 @@ import arcadeLogo from "./assets/images/arcadeLogo.png";
 import scaleLogo from "./assets/images/robotLionsTitleCard.png";
 import thrashLogo from "./assets/images/thrashGraphic.png";
 import rolledLogo from "./assets/images/rolledSchoolSquare.png"
-
+import inkeyPrivacy from "./assets/inkey-privacy-policy_2.pdf";
 
 function App() {
   const githubIcon = <FontAwesomeIcon icon={faGithub} />;
@@ -336,6 +336,15 @@ function App() {
                  
                 >
                   Contact Us
+                </a>
+                
+              </div>
+               <div className="cta-btn">
+                <a
+                  href={inkeyPrivacy}
+                 target="_blank"
+                >
+                  In Key App Privacy Policy
                 </a>
                 
               </div>
