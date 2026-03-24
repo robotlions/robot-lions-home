@@ -47,8 +47,7 @@ function App() {
                     <a href="https://aeropress.com/">AeroPress Coffee Maker</a>.
                   </p>
                   <p>Featuring peachy keen, 1950s atomic graphics!</p>
-                  <strong>Platform:</strong> Android
-                  <br />
+                 
                   <strong>Language:</strong> React Native
                 </div>
               </div>
@@ -65,7 +64,7 @@ function App() {
           </div>
         </div>
 
-        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+        {/* <div className="card mb-3" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
             <div className="col-md-3">
               <img
@@ -99,7 +98,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="spacer"></div>
+        <div className="spacer"></div> */}
 
         <div style={{ textAlign: "center" }}>
           <h2 className="categoryHeadline">Web Apps</h2>
@@ -109,6 +108,7 @@ function App() {
           <div className="row g-0">
             <div className="col-md-3">
               <img
+    
                 src={rolledLogo}
                 className="img-fluid rounded-start appImage"
                 alt="character sheet dice and pencils"
@@ -120,15 +120,13 @@ function App() {
                   Rolled School
                 </h3>
                 <div className="card-text">
-                  <p>Character creator for third-edition Dungeons and Dragons.</p>
-                  <p>
+                  <p>Character creator for third-edition Dungeons and Dragons.
+                  
                     Create old-school characters three different ways - classic, instant and custom.
                   </p>
                   <p>
                     Mobile-responsive for some reason.
                   </p>
-                  <strong>Platform:</strong> Web
-                  <br />
                   <strong>Language:</strong> React and Next JS
                 </div>
               </div>
@@ -169,8 +167,6 @@ function App() {
                   <p>
                     Online editor for the classic Dungeons and Dragons Gold Box
                     video games.
-                  </p>
-                  <p>
                     Easily <span style={{textDecoration:"line-through"}}>cheat</span> augment your characters.
                   </p>
                   <p>
@@ -179,8 +175,6 @@ function App() {
                     <em>Secret of the Silver Blades</em> and{" "}
                     <em>Pools of Darkness</em>.
                   </p>
-                  <strong>Platform:</strong> Web
-                  <br />
                   <strong>Language:</strong> Vite + React JS
                 </div>
               </div>
@@ -218,17 +212,13 @@ function App() {
               <div className="card-body">
                 <h3 className="card-title">Scale-O-Matic 3000</h3>
                 <div className="card-text">
-                  <p>
-                  Free online chord finder.
-                  </p>
+                 
                   <p>
                   Find the chords in any musical key, scale or mode.
                   </p>
                   <p>
                   Choose your root note and scale, and Scale-O-Matic 3000 will automatically generate the chords in that scale.
                   </p>
-                  <strong>Platform:</strong> Web
-                  <br />
                   <strong>Language:</strong> Vite + React
                 </div>
               </div>
@@ -268,15 +258,12 @@ function App() {
                 <div className="card-text">
                   <p>
                   Free online fretboard training tool.
-                  </p>
-                  <p>
+                 
                   Challenge yourself to locate a randomly generated string and note on the guitar fretboard.
                   </p>
                   <p>
                   Play untimed or against a customizable timer.
                   </p>
-                  <strong>Platform:</strong> Web
-                  <br />
                   <strong>Language:</strong> Vite + React
                 </div>
               </div>
